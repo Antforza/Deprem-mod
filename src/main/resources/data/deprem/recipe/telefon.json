@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "G": "minecraft:glass_pane",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "IGI",
+    "IRI",
+    "III"
+  ],
+  "result": {
+    "id": "deprem:telefon",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "deprem",
+  "version": "${version}",
+  "name": "Deprem Modu",
+  "description": "Komutla veya kendiliğinden deprem. Kamera sallanır; Deprem Telefonu ile büyüklük, derinlik ve uzaklığı görürsün.",
+  "authors": ["Deprem Modu"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.depremmod.DepremMod"],
+    "client": ["com.depremmod.DepremClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.2-",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
